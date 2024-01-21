@@ -37,7 +37,7 @@
     "dev:romantic": "yarn workspace @blog/romantic develop",
     "build:romantic": "yarn workspace @blog/romantic build",
     "serve:romantic": "yarn workspace @blog/romantic serve",
-    "deploy": "yarn workspace @blog/modern-agency build && gh-pages -d public -b main"
+    "deploy": "yarn workspace @blog/modern-agency build && gh-pages -d packages/agency-blog-modern/public -b main"
   },
   "devDependencies": {
     "husky": "^7.0.4",
